@@ -40,6 +40,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Firefly">
+      <HintPath>..\..\packages\Firefly.0.6.3\lib\Firefly.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Owin.Host.SystemWeb">
       <HintPath>..\..\packages\Microsoft.Owin.Host.SystemWeb.1.1.0-alpha1-20422-221\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
@@ -80,6 +83,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Go.cmd" />
+    <Content Include="Go2.cmd" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
